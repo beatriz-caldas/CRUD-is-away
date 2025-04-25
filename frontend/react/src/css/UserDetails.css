@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Forced Square';
+  src: url('../fonts/forcedsquare.ttf') format('truetype');
+}
+
+.user-details-container {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.user-details-card {
+  background-color: #2158ee;
+  width: 320px;
+  padding: 2px 10px 6px 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Forced Square', monospace;
+}
+
+.user-details-header {
+  background-color: #2158ee;
+  color: white;
+  font-size: 26px;
+  padding: 6px;
+  text-align: center;
+}
+
+.user-details-body {
+  background-color: #f4f1dc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.user-details-body p {
+  margin: 0;
+}
+
+.back-button-details {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: #4ba2f2;
+  color: white;
+  font-family: 'Forced Square', monospace;
+  font-size: 18px;
+  border: none;
+  cursor: url('../pointer/pointer.cur'), pointer;
+  margin-top: 10px;
+}
+
+.error-message {
+  background-color: #b71212;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  font-family: 'Forced Square', monospace;
+  font-size: 16px;
+  border: 2px solid #730e0e;
+  width: fit-content;
+  max-width: 90%;
+}

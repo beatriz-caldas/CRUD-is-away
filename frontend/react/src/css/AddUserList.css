@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Forced Square';
+    src: url('../fonts/forcedsquare.ttf') format('truetype');
+  }
+  
+  .user-header {
+    background-color: #2158ee;
+    color: white;
+    padding: 8px 12px;
+    font-size: 22px;
+    font-family: 'Forced Square', monospace;
+    width: fit-content;
+    margin: 20px auto 10px;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-card {
+    list-style: none;
+    background-color: #f4f1dc;
+    border: 6px solid #2158ee;
+    width: 280px;
+    margin: 12px auto;
+    padding: 10px;
+    font-family: 'Forced Square', monospace;
+    text-align: center;
+  }
+  
+  .user-card p {
+    margin: 4px 0;
+    font-size: 18px;
+  }
+  
+  .user-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .user-buttons button {
+    font-family: 'Forced Square', monospace;
+    font-size: 18px;
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: url('../pointer/pointer.cur'), pointer;
+  }
+  
+  .edit-button-card {
+    background-color: #1cb01c;
+  }
+  
+  .delete-button {
+    background-color: #b71212;
+  }
+  
+  .details-button {
+    background-color: #4ba2f2;
+    color: white;
+    font-family: 'Forced Square', monospace;
+    font-size: 18px;
+    border: none;
+    padding: 6px 10px;
+    cursor: url('../pointer/pointer.cur'), pointer;
+    
+  }
+  
+  .back-button-lista {
+    display: block;
+    margin: 30px auto 20px auto; 
+    background-color: #4ba2f2;
+    color: white;
+    font-family: 'Forced Square', monospace;
+    font-size: 20px;
+    padding: 8px 16px;
+    border: none;
+    cursor: url('../pointer/pointer.cur'), pointer;
+    border-radius: 0;
+  }
+  

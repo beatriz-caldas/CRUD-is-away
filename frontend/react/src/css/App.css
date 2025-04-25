@@ -1,0 +1,22 @@
+.footer {
+  position: fixed;
+  bottom: 10px;         
+  left: 10px;           
+  background-color: #2158ee;
+  color: white;
+  font-family: 'Forced Square', monospace;
+  font-size: 16px;
+  padding: 10px 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+  white-space: nowrap; 
+  z-index: 1000;
+  max-width: 90vw;      
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
+
